@@ -46,7 +46,7 @@ DOWNLOAD_TESTS: TestSpecs = (
     TestSpec(1_000_000, 8, "1MB", TestType.Down),
     TestSpec(10_000_000, 6, "10MB", TestType.Down),
     TestSpec(25_000_000, 4, "25MB", TestType.Down),
-    TestSpec(100_000_000, 2, "100MB", TestType.Down)
+    TestSpec(100_000_000, 2, "100MB", TestType.Down),
 )
 UPLOAD_TESTS: TestSpecs = (
     TestSpec(100_000, 10, "100kB", TestType.Up),
